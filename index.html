@@ -4,37 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://fonts.google.com/share?selection.family=Poetsen+One|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900">
+    <link rel="stylesheet" href="style/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Pranay Chivhane</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Pranay Chivhane</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onabort="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+    <header>
+        <div class="container">
+            <nav class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+            <div>
+                <button class="btn btn-primary">Contact</button>
+             </div>
+            </nav>
+            <div class="hero flex items-center">
+                <div class="left">
+                    <img src="./image/100.png" alt="">
+                </div>
+                <div class="right">
+                    <h6>Pranay Chivhane</h6>
+                    <h2>I'm a Creative<div></div><span>Designer</span></h2>
+                    <p></p>
+                    <div>
+                        <button class="btn btn-secondary">DOWNLOAD CV</button>
+                    </div>
+                </div>
             </div>
-            <div class="menu-links">
-                <li><a href="#about"onabort="toggleMenu()">About</li>
-                <li><a href="#experince"onabort="toggleMenu()">Experience</li>
-                <li><a href="#projects"onabort="toggleMenu()">Projects</li>
-                <li><a href="#contact"onabort="toggleMenu()">Contact</li>
-            </div>
         </div>
-    </nav>
-    <script src="script.js"></script>
+    </header>
 </body>
 </html>
