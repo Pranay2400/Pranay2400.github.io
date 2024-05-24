@@ -88,3 +88,27 @@ header nav .branding{
 .hero .right{
     margin-top: -7rem;
 }
+
+section{
+    padding: 10rem 0;
+}
+
+section.about .about-me-img{
+    height: 500px;
+}
+
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section.about h1 span{
+    color: var(--primary);
+}
+
+section.about h3{
+    font-size: 1 rem;
+    margin-bottom: 1 rem;
+    font-weight: 400;
+}
