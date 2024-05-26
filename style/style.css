@@ -594,4 +594,7 @@ footer{
     footer{
         padding: 1rem;
     }
+    section.contact .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
